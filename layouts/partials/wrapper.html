@@ -6,10 +6,12 @@
   	<link rel="stylesheet" href="{{ $style.Permalink }}">
   </head>
   <body>
-    <header class="showcase">
-      <h1>{{ .Site.Params.wrapper.title }}</h1>
-      <p>{{ .Site.Params.wrapper.text }}</p>
-      <a href="{{ .Site.Params.wrapper.url }}" class="button">Read More</a>
+    <header>
+      <div class="showcase">
+        <h1>{{ .Site.Params.wrapper.title }}</h1>
+        <p>{{ .Site.Params.wrapper.text }}</p>
+        <a href="{{ .Site.Params.wrapper.url }}" class="button">Read More</a>
+      </div>
     </header>
     <div class="wrapper">
       <div class="intro-text">

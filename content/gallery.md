@@ -1,4 +1,0 @@
-+++
-title = "GALLERY"
-id = "gallery"
-+++

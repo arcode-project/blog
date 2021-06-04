@@ -24,12 +24,17 @@ title = "My New Hugo Site"
 
     [[menu.header]]
     weight = 2
-    name = "Gallery"
-    url = "/gallery"
+    name = "Charts"
+    url = "/charts"
+
+    [[menu.header]]
+    weight = 3
+    name = "Images"
+    url = "/images"
 
     [params.wrapper]
     image = "images/8.jpeg"
-    title = "WELCOME TO THE WORLD Of ART"
-    text = "There is no rule in my mind. If I could have expressed my thoughts and emotions by words I would have became a writer rather than a painter."
-    subtitle = "A PORTFOLIO OF THE PAINTINGS AND ILUSTRATION WORKS"
+    title = "IN THIS WEBSITE YOU CAN FIND THE INFORMATION ABOUT OUR PROJECT"
+    text = "Action-aware combat model for massively multiplayer online role-playing games runnign on cloud gaming platforms."
+    subtitle = "A PORTFOLIO OF THE MASTERS PROJECT"
     url = "/about"

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{{ $data := index .Site.Data }}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    {{ $style := resources.Get "css/style.css" | minify}}
+  	<link rel="stylesheet" href="{{ $style.Permalink }}">
+  </head>
+  <body>
+    <div class="container">
+      <h1>test</h1>
+      <p>lorem</p>
+    </div>
+  </body>
+</html>
