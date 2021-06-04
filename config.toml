@@ -1,3 +1,35 @@
-baseURL = "http://example.org/"
+baseURL = "http://arcode-project.github.io/"
 languageCode = "en-us"
 title = "My New Hugo Site"
+
+[params]
+
+  [[params.footer]]
+    icon = "fa-facebook"
+    URL = "https://en-gb.facebook.com/mahtab.basiri"
+
+  [[params.footer]]
+    icon = "fa-instagram"
+    URL = "https://www.instagram.com/art.mahtab/"
+
+  [[params.footer]]
+    icon = "fa-linkedin"
+    URL = "https://www.linkedin.com/in/mahtab-basiri-647023176/"
+  [menu]
+
+    [[menu.header]]
+    weight = 1
+    name = "About"
+    url = "/about"
+
+    [[menu.header]]
+    weight = 2
+    name = "Gallery"
+    url = "/gallery"
+
+    [params.wrapper]
+    image = "images/8.jpeg"
+    title = "WELCOME TO THE WORLD Of ART"
+    text = "There is no rule in my mind. If I could have expressed my thoughts and emotions by words I would have became a writer rather than a painter."
+    subtitle = "A PORTFOLIO OF THE PAINTINGS AND ILUSTRATION WORKS"
+    url = "/about"
