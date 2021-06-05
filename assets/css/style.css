@@ -219,6 +219,12 @@ p {
   overflow: auto;
 }
 
+.container-image {
+  max-width: 100%;
+  margin:15px;
+  overflow: auto;
+}
+
 .gallery {
   margin: 49px;
   border: 1px solid #ccc;
@@ -241,4 +247,16 @@ p {
   color: #fff;
   padding: 15px;
   text-align: center;
+}
+
+.border {
+  margin-top: 100px;
+  background: white;
+  width:1080px;
+  padding: 3rem;
+}
+
+.image {
+  width: 100%;
+  object-fit: cover;
 }

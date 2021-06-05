@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+{{ $data := index .Site.Data }}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    {{ $style := resources.Get "css/style.css" | minify}}
+  	<link rel="stylesheet" href="{{ $style.Permalink }}">
+  </head>
+  <body>
+    <div class="container-image">
+      <div class="border">
+        <img class="image" src="/images/in-game-images/bossFight-H264-Baseline-1080-4.png">
+        <p align="center">Baseline</p>
+        <img class="image" src="/images/in-game-images/bossFight-H264-ARCODE-1080-4.png">
+        <p>ARCODE</p>
+        <h1>Comparison of the image quality</h1>
+      </div>
+      <div class="border">
+        <img class="image" src="/images/in-game-images/bossFight-H264-Baseline-1080-4.png">
+        <p align="center">Baseline</p>
+        <img class="image" src="/images/in-game-images/bossFight-H264-ARCODE-1080-4.png">
+        <p>ARCODE</p>
+        <h1>Comparison of the image quality</h1>
+      </div>
+    </div>
+  </body>
+</html>
