@@ -33,7 +33,7 @@ title = "My New Hugo Site"
     url = "/images"
 
     [params.wrapper]
-    image = "images/8.jpeg"
+    image = "imag/8.jpeg"
     title = "IN THIS WEBSITE YOU CAN FIND THE INFORMATION ABOUT OUR PROJECT"
     text = "Action-aware combat model for massively multiplayer online role-playing games runnign on cloud gaming platforms."
     subtitle = "A PORTFOLIO OF THE MASTERS PROJECT"
