@@ -4,37 +4,9 @@ title = "My New Hugo Site"
 
 [params]
 
-  [[params.footer]]
-    icon = "fa-facebook"
-    URL = "https://en-gb.facebook.com/mahtab.basiri"
-
-  [[params.footer]]
-    icon = "fa-instagram"
-    URL = "https://www.instagram.com/art.mahtab/"
-
-  [[params.footer]]
-    icon = "fa-linkedin"
-    URL = "https://www.linkedin.com/in/mahtab-basiri-647023176/"
-  [menu]
-
-    [[menu.header]]
-    weight = 1
-    name = "About"
-    url = "/about"
-
-    [[menu.header]]
-    weight = 2
-    name = "Charts"
-    url = "/charts"
-
-    [[menu.header]]
-    weight = 3
-    name = "Images"
-    url = "/images"
-
-    [params.wrapper]
-    image = "imag/8.jpeg"
-    title = "IN THIS WEBSITE YOU CAN FIND THE INFORMATION ABOUT OUR PROJECT"
-    text = "Action-aware combat model for massively multiplayer online role-playing games runnign on cloud gaming platforms."
-    subtitle = "A PORTFOLIO OF THE MASTERS PROJECT"
-    url = "/about"
+  [params.wrapper]
+  image = "imag/8.jpeg"
+  title = "ARCODE"
+  text = "Action-aware combat model for massively multiplayer online role-playing games runnign on cloud gaming platforms."
+  subtitle = "A PORTFOLIO OF THE MASTERS PROJECT"
+  url = "/about"

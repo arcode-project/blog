@@ -7,14 +7,19 @@
   	<link rel="stylesheet" href="{{ $style.Permalink }}">
   </head>
   <body>
-    <div class="nav">
-      <ul>
-        <li><a href="{{ .Site.BaseURL }}">Home</a></li>
-        {{ range .Site.Menus.header }}
-          <li><a href="{{ .URL }}/">{{ .Name }}</a></li>
-        {{ end }}
-      </ul>
+    <div class="navbar">
+      <a href="/">Home</a>
+      <a href="/about">About</a>
+      <div class="dropdown">
+        <button class="dropbtn">Evaluation
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="/charts">Distortion Curves</a>
+          <a href="/images">In-game Images</a>
+        </div>
       </div>
+    </div>
     </div>
   </body>
 </html>
