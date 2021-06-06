@@ -7,7 +7,7 @@
   	<link rel="stylesheet" href="{{ $style.Permalink }}">
   </head>
   <body>
-    <div class="navbar">
+    <div class="navbar" id="myNavbar">
       <a href="/">Home</a>
       <a href="/about">About</a>
       <div class="dropdown">
@@ -19,7 +19,19 @@
           <a href="/images">In-game Images</a>
         </div>
       </div>
+      <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a> -->
     </div>
-    </div>
+    <!-- <script>
+        function myFunction() {
+          var x = document.getElementById("myNavbar");
+          if (x.className === "navbar") {
+            x.className += " responsive";
+          } else {
+            x.className = "navbar";
+          }
+        }
+    </script> -->
   </body>
 </html>
