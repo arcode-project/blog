@@ -7,6 +7,6 @@ title = "My New Hugo Site"
   [params.wrapper]
   image = "imag/8.jpeg"
   title = "ARCODE"
-  text = "Action-aware combat model for massively multiplayer online role-playing games runnign on cloud gaming platforms."
+  text = "Action-Aware Combat Model for Efficient Video Compression of Massively Multiplayer Online Role-playing Games on Cloud Gaming Platforms"
   subtitle = "A PORTFOLIO OF THE MASTERS PROJECT"
   url = "/about"
