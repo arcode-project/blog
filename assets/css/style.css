@@ -76,6 +76,15 @@ p {
   }
 } */
 
+@media only screen and (max-width: 600px) {
+  .container {
+    max-width: 100%;
+    margin: 50px;
+    background-color: blue;
+    overflow: auto;
+  }
+}
+
 .dropdown {
   float: left;
   overflow: hidden;
@@ -229,9 +238,13 @@ p {
 
 .container {
   max-width: 100%;
-  margin: 140px;
+  margin: 240px;
   background: white;
   overflow: auto;
+}
+
+.container div {
+  margin-top: 30px;
 }
 
 .container-image {
