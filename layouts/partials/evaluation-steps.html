@@ -1,0 +1,21 @@
+{{ $data := index .Site.Data }}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Evaluation Steps</h1>
+        <div>
+          <ol>
+            <li>The videos are available <a href="https://drive.google.com/drive/folders/1An4EfK8SmXeU8d-oevu9weXx8S01AOLO?usp=sharing" target="_blank">here</a>. Each destination folder contains two videos: the original video and the reconstructed one.</li>
+            <li><a href="https://www.ffmpeg.org/" target="_blank">FFmpeg</a> can be used to convert the video files to raw YUV video: <span style="color:#406A96;">ffmpeg -i input -c:v rawvideo -pix_fmt yuv420p output.yuv</span>.</li>
+            <li><a href="https://www.ffmpeg.org/" target="_blank">FFmpeg</a> further is used to extract the raw YUV frames: <span style="color:#406A96;">ffmpeg -f rawvideo -framerate 60 -s 1920x1080 -pixel_format yuv420p -i input.yuv -c copy -f segment -segment_time 0.01 frames%d.yuv</span>.</li>
+            <li>The original and reconstructed videos are not perfectly aligned. We wrote a <a href="https://drive.google.com/drive/folders/1F9HrHMjdPa4P6qUcrXTe-gKQJvf4xZ0U?usp=sharing">code</a> that aligns the reconstructed video frames with respect to those of the original one and calculates the PSNR.</li>
+          </ol>
+        </div>
+    </div>
+  </body>
+</html>

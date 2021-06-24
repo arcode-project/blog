@@ -23,9 +23,17 @@ body {
 }
 
 p {
-  font-size: 15px;
-  line-height: 29px;
+  font-size: 19px;
+  line-height: 39px;
   text-align: justify;
+}
+
+a{
+  color: #375B2B;
+}
+
+a:hover{
+  color: #497DB3
 }
 
 .navbar {
@@ -245,6 +253,12 @@ p {
 
 .container div {
   margin-top: 30px;
+}
+
+.container ol li {
+    list-style: decimal;
+    list-style-position: inside;
+    font-size: 19px;
 }
 
 .container-image {
